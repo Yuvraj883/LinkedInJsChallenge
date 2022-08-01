@@ -1,3 +1,7 @@
+body{
+  margin:0;
+  padding:0;
+}
 .container{
   background:green; 
   width:100%
@@ -7,4 +11,42 @@
   height:5rem;
   width:5rem;
   background-color:brown; 
+}
+.contact-name{
+  color:white;
+  font-size:3rem;
+  /* margin-bottom:0; */
+  margin-top:0;
+  padding-top:0;
+
+}
+#lastActive{
+  margin-left:6rem;
+
+}
+.warning{
+  color:red;
+  font-size:small;
+}
+.input-box{
+  margin:15rem;
+  border: 2px solid black;
+  box-shadow: 0 0 1em gray;
+  width:60%; 
+  padding:2rem;
+}
+.input-box input{
+  width:70%
+}
+.input-box label{
+  font-weight: bold;
+}
+.submit-btn{
+  border:none;
+  background-color: green;
+  padding:.6em; 
+  color:white; 
+  font-weight: bold;
+  border-radius:5%;
+  cursor:pointer; 
 }

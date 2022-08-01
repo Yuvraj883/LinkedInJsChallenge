@@ -16,10 +16,10 @@ const lastSeen = new Date(yyyy,mm-1,dd,h,min,sec);
 const diff =(currentTime.getTime() - lastSeen.getTime()); 
 console.log(diff);
 const h2 = document.getElementById("lastActive");
-const para = document.getElementById("para"); 
- para.innerText = 	`Current Time = ${currentTime} 
- Last Seen = ${lastSeen}
- diff = ${currentTime-lastSeen}`
+// const para = document.getElementById("para"); 
+//  para.innerText = 	`Current Time = ${currentTime} 
+//  Last Seen = ${lastSeen}
+//  diff = ${currentTime-lastSeen}`
 //h2.innerText = diff; 
 if(diff===0){
   h2.innerText = `online`;
@@ -45,9 +45,3 @@ h2.innerText = "last Seen more than a month ago";
 else{
   h2.innerText = "Invalid input"; 
 }
-// let diff = currentTime-lastSeen; 
-// if(currentTime-lastSeen === 0){
-//   console.log("Online"); 
-// }else if(currentTime-lastSeen<=1000*60){
-// console.log("Last seen just now");
-// }else if(currentTime-lastSeen>=1000*60 && currentTime-lastSeen)
