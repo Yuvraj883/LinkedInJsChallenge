@@ -30,8 +30,8 @@ body{
 }
 .input-box{
   margin:15rem;
-  border: 2px solid black;
-  box-shadow: 0 0 1em gray;
+  /* border: 2px solid black; */
+  box-shadow: 0 0 .5em gray;
   width:60%; 
   padding:2rem;
 }

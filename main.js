@@ -10,7 +10,9 @@ const h= 1;
 const min = 27; 
 const sec = 0;  
 
-
+const time = document.getElementById("input-time"); 
+// time.innerText= "Hello this is the God speaking!"
+const submit = document.getElementsByClassName("submit-btn"); 
 const currentTime = new Date(); 
 const lastSeen = new Date(yyyy,mm-1,dd,h,min,sec); 
 const diff =(currentTime.getTime() - lastSeen.getTime()); 
@@ -21,6 +23,13 @@ const h2 = document.getElementById("lastActive");
 //  Last Seen = ${lastSeen}
 //  diff = ${currentTime-lastSeen}`
 //h2.innerText = diff; 
+
+function onSubmit(){
+  alert("Button clicked");
+  console.log("Button clicked"); 
+}
+
+
 if(diff===0){
   h2.innerText = `online`;
 }
