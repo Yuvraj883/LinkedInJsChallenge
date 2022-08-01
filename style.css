@@ -4,7 +4,9 @@ body{
 }
 .container{
   background:green; 
-  width:100%
+  width:100%; 
+  padding: .5rem;
+
 }
 .dp{
   border-radius:50%; 
@@ -49,4 +51,7 @@ body{
   font-weight: bold;
   border-radius:5%;
   cursor:pointer; 
+}
+.dummyBtn{
+  background-color:black;
 }

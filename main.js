@@ -24,9 +24,13 @@ const h2 = document.getElementById("lastActive");
 //  diff = ${currentTime-lastSeen}`
 //h2.innerText = diff; 
 
-function onSubmit(){
+function btnClicked(){
   alert("Button clicked");
   console.log("Button clicked"); 
+}
+
+function btn2Clicked(){
+  console.log("Btn 2 clicked"); 
 }
 
 
