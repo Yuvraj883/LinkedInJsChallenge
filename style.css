@@ -54,4 +54,6 @@ body{
 }
 .dummyBtn{
   background-color:black;
+  color:red;
+  font-size:largest;
 }

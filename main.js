@@ -4,35 +4,25 @@ const minute = 60*second;
 const hour = minute*60; 
 const day = hour*24; 
 const yyyy = 2022; 
-const mm = 0o7;
+const mm = 7;
 const dd = 31; 
 const h= 1; 
 const min = 27; 
 const sec = 0;  
-
 const time = document.getElementById("input-time"); 
 // time.innerText= "Hello this is the God speaking!"
-const submit = document.getElementsByClassName("submit-btn"); 
+const submit = document.getElementsByClassName("submit-btn")[0]; 
 const currentTime = new Date(); 
 const lastSeen = new Date(yyyy,mm-1,dd,h,min,sec); 
 const diff =(currentTime.getTime() - lastSeen.getTime()); 
-console.log(diff);
+//console.log(diff);
 const h2 = document.getElementById("lastActive");
 // const para = document.getElementById("para"); 
 //  para.innerText = 	`Current Time = ${currentTime} 
 //  Last Seen = ${lastSeen}
 //  diff = ${currentTime-lastSeen}`
 //h2.innerText = diff; 
-
-function btnClicked(){
-  alert("Button clicked");
-  console.log("Button clicked"); 
-}
-
-function btn2Clicked(){
-  console.log("Btn 2 clicked"); 
-}
-
+alert("Javascript connected")
 
 if(diff===0){
   h2.innerText = `online`;
@@ -58,3 +48,15 @@ h2.innerText = "last Seen more than a month ago";
 else{
   h2.innerText = "Invalid input"; 
 }
+
+
+
+function btn2Clicked(){
+  alert("button2 clicked");
+}
+submit.addEventListener("click", onSubmit);
+function onSubmit(){
+  alert("Button clicked");
+}
+// const dummyBtn = document.querySelector(".dummyBtn"); 
+// dummyBtn.addEventListener("click", btn2Clicked);
