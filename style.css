@@ -36,7 +36,10 @@ body{
   font-size:small;
 }
 .input-box{
-  margin:15rem;
+  margin:auto; 
+  margin-top:10rem;
+  /* align-items: center;
+  justify-content: center; */
   /* border: 2px solid black; */
   box-shadow: 0 0 .5em gray;
   width:60%; 
