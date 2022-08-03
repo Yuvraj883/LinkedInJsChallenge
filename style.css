@@ -6,6 +6,9 @@ body{
   background:green; 
   width:100%; 
   padding: .5rem;
+  display:flex;
+  justify-content: left;
+  align-items: center;
 
 }
 .dp{
@@ -16,14 +19,15 @@ body{
 }
 .contact-name{
   color:white;
-  font-size:3rem;
+  font-size:2.5rem;
   /* margin-bottom:0; */
   margin-top:0;
   padding-top:0;
 
 }
 #lastActive{
-  margin-left:6rem;
+  /* margin-left:6rem;
+  display:block; */
 
 }
 .warning{
